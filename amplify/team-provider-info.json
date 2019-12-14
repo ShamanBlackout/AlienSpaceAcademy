@@ -1,0 +1,15 @@
+{
+    "local": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-alienspaceacademy-local-191812-authRole",
+            "UnauthRoleArn": "arn:aws:iam::880858078280:role/amplify-alienspaceacademy-local-191812-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::880858078280:role/amplify-alienspaceacademy-local-191812-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-alienspaceacademy-local-191812-deployment",
+            "UnauthRoleName": "amplify-alienspaceacademy-local-191812-unauthRole",
+            "StackName": "amplify-alienspaceacademy-local-191812",
+            "StackId": "arn:aws:cloudformation:us-east-1:880858078280:stack/amplify-alienspaceacademy-local-191812/c5744370-1bab-11ea-82f6-0a2f4587a347",
+            "AmplifyAppId": "d1p3fdy2le4okd"
+        }
+    }
+}
