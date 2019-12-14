@@ -10,6 +10,11 @@
             "StackName": "amplify-alienspaceacademy-local-191812",
             "StackId": "arn:aws:cloudformation:us-east-1:880858078280:stack/amplify-alienspaceacademy-local-191812/c5744370-1bab-11ea-82f6-0a2f4587a347",
             "AmplifyAppId": "d1p3fdy2le4okd"
+        },
+        "categories": {
+            "auth": {
+                "alienspaceacademy77c8cf74": {}
+            }
         }
     }
 }

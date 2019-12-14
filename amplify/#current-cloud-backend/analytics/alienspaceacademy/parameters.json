@@ -1,0 +1,20 @@
+{
+    "appName": "alienspaceacademy",
+    "roleName": "pinpointLambdaRolef81ae6eb",
+    "cloudWatchPolicyName": "cloudWatchPolicyf81ae6eb",
+    "pinpointPolicyName": "pinpointPolicyf81ae6eb",
+    "authPolicyName": "pinpoint_amplify_f81ae6eb",
+    "unauthPolicyName": "pinpoint_amplify_f81ae6eb",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}

@@ -1,0 +1,79 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "amplify-alienspaceacademy-local-191812-authRole",
+			"UnauthRoleArn": "arn:aws:iam::880858078280:role/amplify-alienspaceacademy-local-191812-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::880858078280:role/amplify-alienspaceacademy-local-191812-authRole",
+			"Region": "us-east-1",
+			"DeploymentBucketName": "amplify-alienspaceacademy-local-191812-deployment",
+			"UnauthRoleName": "amplify-alienspaceacademy-local-191812-unauthRole",
+			"StackName": "amplify-alienspaceacademy-local-191812",
+			"StackId": "arn:aws:cloudformation:us-east-1:880858078280:stack/amplify-alienspaceacademy-local-191812/c5744370-1bab-11ea-82f6-0a2f4587a347",
+			"AmplifyAppId": "d1p3fdy2le4okd"
+		}
+	},
+	"auth": {
+		"alienspaceacademy77c8cf74": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/amplify-alienspaceacademy-local-191812-deployment/amplify-cfn-templates/auth/alienspaceacademy77c8cf74-cloudformation-template.yml",
+				"logicalId": "authalienspaceacademy77c8cf74"
+			},
+			"lastPushTimeStamp": "2019-12-14T03:30:01.079Z",
+			"output": {
+				"AppClientSecret": "k76ecp9jqs6l2qclnrvauctan5da51mbuigp1ca055gaf8up6ur",
+				"UserPoolId": "us-east-1_n7KaF7Rgg",
+				"AppClientIDWeb": "ojb1bf9mu712fjug2m5li55k5",
+				"AppClientID": "22kk58aa9ebdbhkks8dtufq01i",
+				"IdentityPoolId": "us-east-1:eda8de4e-9358-4e43-9e58-8d0060db9eb2",
+				"IdentityPoolName": "alienspaceacademy77c8cf74_identitypool_77c8cf74__local",
+				"UserPoolName": "alienspaceacademy77c8cf74_userpool_77c8cf74"
+			},
+			"lastPushDirHash": "eYSKJ9oGk7FzydleSLEFKbtrvic="
+		}
+	},
+	"analytics": {
+		"alienspaceacademy": {
+			"service": "Pinpoint",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/amplify-alienspaceacademy-local-191812-deployment/amplify-cfn-templates/analytics/pinpoint-cloudformation-template.json",
+				"logicalId": "analyticsalienspaceacademy"
+			},
+			"lastPushTimeStamp": "2019-12-14T03:30:01.079Z",
+			"output": {
+				"appName": "alienspaceacademy-local",
+				"Region": "us-east-1",
+				"Id": "b030a9fc3b4449928d43af4de62f2bf4"
+			},
+			"lastPushDirHash": "OWJH4kl8Anxt6PhVElVsLmw6zMU="
+		}
+	},
+	"api": {
+		"alienspaceacademy": {
+			"service": "AppSync",
+			"providerPlugin": "awscloudformation",
+			"output": {
+				"authConfig": {
+					"additionalAuthenticationProviders": [],
+					"defaultAuthentication": {
+						"authenticationType": "AMAZON_COGNITO_USER_POOLS",
+						"userPoolConfig": {
+							"userPoolId": "authalienspaceacademy77c8cf74"
+						}
+					}
+				},
+				"GraphQLAPIIdOutput": "unb52swjnzfb5cy6et5lkv4que",
+				"GraphQLAPIEndpointOutput": "https://3cw5erhafngxhaekkaqtvxrfbq.appsync-api.us-east-1.amazonaws.com/graphql"
+			},
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/amplify-alienspaceacademy-local-191812-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+				"logicalId": "apialienspaceacademy"
+			},
+			"lastPushTimeStamp": "2019-12-14T03:30:01.079Z",
+			"lastPushDirHash": "Eb3YCDZwqeQiKnqNb02yMgcCYxU="
+		}
+	}
+}
