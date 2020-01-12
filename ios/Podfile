@@ -38,8 +38,10 @@ target 'AlienSpaceAcademy' do
 
   # Other native modules
   pod 'RNGestureHandler', :podspec => '../node_modules/react-native-gesture-handler/RNGestureHandler.podspec'
-  pod 'RNReanimated', :podspec => '../node_modules/react-native-reanimated/RNReanimated.podspec'
-  pod 'RNScreens', :path => '../node_modules/react-native-screens'
+  #pod 'RNReanimated', :podspec => '../node_modules/react-native-reanimated/RNReanimated.podspec'
+  #pod 'RNScreens', :path => '../node_modules/react-native-screens'
+  #pod 'RNAWSCognito', :path => '../node_modules/amazon-cognito-identity-js'
+  #pod 'react-native-netinfo',:path => '../node_modules/@react-native-community/netinfo'
 
   # Automatically detect installed unimodules
   use_unimodules!
